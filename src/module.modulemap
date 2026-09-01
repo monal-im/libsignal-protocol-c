@@ -1,0 +1,22 @@
+module SignalProtocolC {
+    header "curve.h"
+    header "device_consistency.h"
+    header "fingerprint.h"
+    header "group_cipher.h"
+    header "group_session_builder.h"
+    header "hkdf.h"
+    header "key_helper.h"
+    header "protocol.h"
+    header "ratchet.h"
+    header "sender_key.h"
+    header "sender_key_record.h"
+    header "sender_key_state.h"
+    header "session_builder.h"
+    header "session_cipher.h"
+    header "session_pre_key.h"
+    header "session_record.h"
+    header "session_state.h"
+    header "signal_protocol.h"
+    header "signal_protocol_types.h"
+    export *
+}
